@@ -1,0 +1,16 @@
+costCode: 13121DD
+projectCode: project34
+infra:
+  zone: a,b,c
+  region: us-west-1
+contact: 12C
+tags:
+  machine: frontdrive
+  rack: 4c
+  drive: ssd
+  vcard: 8g
+LangUsed:
+  - Python
+  - Ruby
+  - Java
+  - Scala
