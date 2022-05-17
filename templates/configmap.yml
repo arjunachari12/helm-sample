@@ -22,8 +22,8 @@ data:
   {{ end -}}
   {{- $relname := .Release.Name -}}
   {{- with .Values.tags }}
-  Machine Type: {{ .machine | default "NA" | quote }}
-  Rack ID: {{ .rack | quote }}
-  Storage Type: {{ .drive | upper | quote }}
+  MachineType: {{ .machine | default "NA" | quote }}
+  RackID: {{ .rack | quote }}
+  StorageType: {{ .drive | upper | quote }}
   Release: {{ $relname }}
   {{- end }}
